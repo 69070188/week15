@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>สุ่มเมนูอาหาร</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <h1 class="nav-logo">🍜 สุ่มเมนูอาหารวันนี้</h1>
+    </div>
+  </nav>
+
+  <!-- ส่วนแสดงผลอาหาร -->
+  <main class="container">
+    <section class="food-card">
+      <div class="food-image-wrapper">
+        <img id="food-img" src="" alt="รูปเมนูอาหาร" class="food-image">
+      </div>
+
+      <div class="food-info">
+        <h2 id="food-name" class="food-name"></h2>
+        <p id="food-desc" class="food-desc"></p>
+        <div class="food-price-wrapper">
+          <span class="price-label">ราคา</span>
+          <span id="food-price" class="food-price"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ปุ่มสุ่ม -->
+    <div class="btn-wrapper">
+      <button id="random-btn" class="random-button">
+        <span class="button-content">🎲 สุ่มเมนูอาหาร</span>
+      </button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
